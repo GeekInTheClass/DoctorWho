@@ -2,13 +2,13 @@
 영국에서 방영하는 가장 오래된 드라마.
 
 ![](https://raw.githubusercontent.com/GeekInTheClass/DoctorWho/master/1.jpg)
- 
+
 ##시즌
 올드 시즌이 아쉬움을 남기고 끝났지만, 오랜 시간이 시나고 나서 뉴 시즌으로 돌아와 매년 한 시즌씩 방영하고 있다. 오래됐지만 여전히 매 시즌 인기있고 팬이 두텁다.
 
 ##등장인물
 - <a href = "./The Doctors.md/"> 닥터 </a>
-- 컴패니언
+- <a href = "./The Companions.md/"> 컴패니언 </a>
 - 악당
 
 ##상징적인 특징과 소품
