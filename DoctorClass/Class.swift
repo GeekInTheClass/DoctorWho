@@ -37,18 +37,42 @@ class Charactor {
 
 class Doctor : Charactor {
     var order: Int = 0
-    let phrase: String = ""
+    var phrase: String = ""
 }
 
 
-var eleventh = Doctor(name: "Doctor")
 
 func createDummy () -> [Season]{
-var DoctorWho : [Season] = []
-let season11 = Season(number:11)
-season11.casts += [eleventh]
-DoctorWho += [season11]
-return DoctorWho
+    
+    var DoctorWho : [Season] = []
+    
+    let season10 = Season(number:10)
+    let season11 = Season(number:11)
+    let season12 = Season(number:12)
+    
+    let tenth = Doctor(name: "Doctor")
+    let eleventh = Doctor(name: "Doctor")
+    let twelveth = Doctor(name: "Doctor")
+    tenth.order = 10
+    eleventh.order = 11
+    twelveth.order = 12
+    tenth.phrase = "Alonsi"
+    eleventh.phrase = "Zeronimo"
+    tenth.realname = "David Tenant"
+    eleventh.realname = "Matt Smith"
+    twelveth.realname = "Peter Cavaldi"
+    
+    let clara = Charactor(name:"Clara Ozwald")
+    clara.realname = "Jena Colson"
+    clara.part = "companion"
+
+    season10.casts += [tenth]
+    season11.casts += [eleventh, clara]
+    season12.casts += [twelveth, clara]
+
+    DoctorWho += [season10, season11, season12]
+    
+    return DoctorWho
 }
 
   
