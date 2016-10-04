@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  DoctorClass
+//  DoctorWho
 //
-//  Created by 한상훈 on 2016. 9. 27..
+//  Created by 한상훈 on 2016. 10. 4..
 //  Copyright © 2016년 Sanghoon Han. All rights reserved.
 //
 
@@ -12,11 +12,10 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    let doctorwhoCasts: [String] = createDummy()
+
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        print("\n\(doctorwhoCasts.map{$0.casts})\n")
         return true
     }
 

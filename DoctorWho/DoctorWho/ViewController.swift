@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  DoctorClass
+//  DoctorWho
 //
-//  Created by 한상훈 on 2016. 9. 27..
+//  Created by 한상훈 on 2016. 10. 4..
 //  Copyright © 2016년 Sanghoon Han. All rights reserved.
 //
 
@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var label: UILabel!
 
 }
 

@@ -1,8 +1,8 @@
 //
-//  Class.swift
-//  DoctorClass
+//  Data.swift
+//  DoctorWho
 //
-//  Created by 한상훈 on 2016. 9. 27..
+//  Created by 한상훈 on 2016. 10. 4..
 //  Copyright © 2016년 Sanghoon Han. All rights reserved.
 //
 
@@ -13,7 +13,7 @@ class Season{
     var casts : [Charactor]
     var newold : String {
         get {
-        if (seasonNumber < 9) {return "old"} else { return "new"}
+            if (seasonNumber < 9) {return "old"} else { return "new"}
         }
     }
     init (number:Int){
@@ -24,23 +24,14 @@ class Season{
 
 class Charactor {
     let name: String
-    let image: String
     var part: String
     var realname: String
     init(name: String) {
         self.name = name
-        image = ""
         part = ""
         realname = ""
     }
 }
-
-class Doctor : Charactor {
-    var order: Int = 0
-    var phrase: String = ""
-}
-
-
 
 func createDummy () -> [Season]{
     
@@ -50,29 +41,25 @@ func createDummy () -> [Season]{
     let season11 = Season(number:11)
     let season12 = Season(number:12)
     
-    let tenth = Doctor(name: "Doctor")
-    let eleventh = Doctor(name: "Doctor")
-    let twelveth = Doctor(name: "Doctor")
-    tenth.order = 10
-    eleventh.order = 11
-    twelveth.order = 12
-    tenth.phrase = "Alonsi"
-    eleventh.phrase = "Zeronimo"
+    let tenth = Charactor(name: "Doctor")
+    let eleventh = Charactor(name: "Doctor")
+    let twelveth = Charactor(name: "Doctor")
+    
     tenth.realname = "David Tenant"
     eleventh.realname = "Matt Smith"
     twelveth.realname = "Peter Cavaldi"
     
     let clara = Charactor(name:"Clara Ozwald")
     clara.realname = "Jena Colson"
-    clara.part = "companion"
-
+    clara.part = "Companion"
+    
     season10.casts += [tenth]
     season11.casts += [eleventh, clara]
     season12.casts += [twelveth, clara]
-
+    
     DoctorWho += [season10, season11, season12]
     
     return DoctorWho
 }
 
-  
+

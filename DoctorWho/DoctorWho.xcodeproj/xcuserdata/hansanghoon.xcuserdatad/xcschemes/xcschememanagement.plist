@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>DoctorClass.xcscheme</key>
+		<key>DoctorWho.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>62451E821D99F9CD009EF249</key>
+		<key>62CA99511DA3DA0600E38872</key>
 		<dict>
 			<key>primary</key>
 			<true/>

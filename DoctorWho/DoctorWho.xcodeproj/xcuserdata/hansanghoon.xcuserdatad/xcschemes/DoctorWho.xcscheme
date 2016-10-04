@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "62451E821D99F9CD009EF249"
-               BuildableName = "DoctorClass.app"
-               BlueprintName = "DoctorClass"
-               ReferencedContainer = "container:DoctorClass.xcodeproj">
+               BlueprintIdentifier = "62CA99511DA3DA0600E38872"
+               BuildableName = "DoctorWho.app"
+               BlueprintName = "DoctorWho"
+               ReferencedContainer = "container:DoctorWho.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "62451E821D99F9CD009EF249"
-            BuildableName = "DoctorClass.app"
-            BlueprintName = "DoctorClass"
-            ReferencedContainer = "container:DoctorClass.xcodeproj">
+            BlueprintIdentifier = "62CA99511DA3DA0600E38872"
+            BuildableName = "DoctorWho.app"
+            BlueprintName = "DoctorWho"
+            ReferencedContainer = "container:DoctorWho.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "62451E821D99F9CD009EF249"
-            BuildableName = "DoctorClass.app"
-            BlueprintName = "DoctorClass"
-            ReferencedContainer = "container:DoctorClass.xcodeproj">
+            BlueprintIdentifier = "62CA99511DA3DA0600E38872"
+            BuildableName = "DoctorWho.app"
+            BlueprintName = "DoctorWho"
+            ReferencedContainer = "container:DoctorWho.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "62451E821D99F9CD009EF249"
-            BuildableName = "DoctorClass.app"
-            BlueprintName = "DoctorClass"
-            ReferencedContainer = "container:DoctorClass.xcodeproj">
+            BlueprintIdentifier = "62CA99511DA3DA0600E38872"
+            BuildableName = "DoctorWho.app"
+            BlueprintName = "DoctorWho"
+            ReferencedContainer = "container:DoctorWho.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
