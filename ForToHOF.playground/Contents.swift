@@ -21,7 +21,35 @@ for name in people {
 }
 
 
+let breads = ["단팥빵" : 1500, "생크림단팥빵" : 2000, "버터앙팡" : 4000]
 
+for bread in breads{
+    print(bread.0+"은 "+String(bread.1)+"원 입니다.")
+}
+
+
+//가장 비싼빵, 싼빵?
+var sortedBread: [String:Int] = [:]
+var min: Int = breads["단팥빵"]!
+var max: Int = breads["단팥빵"]!
+
+for bread in breads{
+    if bread.1 < min {
+        min = bread.1
+    }
+    if bread.1 > max {
+        max = bread.1
+    }
+}
+
+print("가장 비싼 빵은 "+"\(max)"+"원이고 가장 싼 빵은 "+"\(min)"+"입니다.")
+
+//만원으로 몇 개 살 수 있는지?
+var available: [String:Int] = [:]
+let asset = 10000
+for bread in breads{
+    available[bread.0] = 10000/bread.1
+}
 
 
 //
