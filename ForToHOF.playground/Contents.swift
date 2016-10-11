@@ -68,3 +68,10 @@ for bread in breads{
 //var nameOrder : [String]
 //
 //
+let buildingName:[String:Int] = ["두레문예관":67, "IBK커뮤니케이션센터":64, "SK경영관":152, "규장각":103, "환경대학원":82]
+var numbers = 80
+for number in buildingName {
+    if number.value < numbers {
+        print("\(number.key)는 여기서 가깝습니다.")
+    }
+}
